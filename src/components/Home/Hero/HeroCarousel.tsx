@@ -1,0 +1,155 @@
+"use client";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+
+// Import Swiper styles
+import "swiper/css/pagination";
+import "swiper/css";
+
+import Image from "next/image";
+
+const HeroCarousal = () => {
+  return (
+    <Swiper
+      spaceBetween={30}
+      centeredSlides={true}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      pagination={{
+        clickable: true,
+      }}
+      modules={[Autoplay, Pagination]}
+      className="hero-carousel"
+    >
+      {/* Slide 1: Smartphones */}
+      <SwiperSlide>
+        <div className="flex items-center pt-6 sm:pt-0 flex-col-reverse sm:flex-row">
+          <div className="max-w-[394px] py-10 sm:py-15 lg:py-24.5 pl-4 sm:pl-7.5 lg:pl-12.5">
+            <div className="flex items-center gap-4 mb-7.5 sm:mb-10">
+              <span className="block font-semibold text-heading-3 sm:text-heading-1 text-blue">
+                25%
+              </span>
+              <span className="block text-dark text-sm sm:text-custom-1 sm:leading-[24px]">
+                Off
+                <br />
+                Today!
+              </span>
+            </div>
+
+            <h1 className="font-semibold text-dark text-xl sm:text-3xl mb-3">
+              <a href="#">Latest Smartphones: Power in Your Pocket</a>
+            </h1>
+
+            <p>
+              Discover the newest models with cutting-edge cameras, lightning-fast processors, and vibrant displays from TechNova.
+            </p>
+
+            <a
+              href="#"
+              className="inline-flex font-medium text-white text-custom-sm rounded-md bg-dark py-3 px-9 ease-out duration-200 hover:bg-blue mt-10"
+            >
+              Shop Now
+            </a>
+          </div>
+
+          <div>
+            <Image
+              src="/images/hero/hero-01.png"
+              alt="smartphone"
+              width={351}
+              height={358}
+            />
+          </div>
+        </div>
+      </SwiperSlide>
+
+      {/* Slide 2: Smartwatches */}
+      <SwiperSlide>
+        <div className="flex items-center pt-6 sm:pt-0 flex-col-reverse sm:flex-row">
+          <div className="max-w-[394px] py-10 sm:py-15 lg:py-26 pl-4 sm:pl-7.5 lg:pl-12.5">
+            <div className="flex items-center gap-4 mb-7.5 sm:mb-10">
+              <span className="block font-semibold text-heading-3 sm:text-heading-1 text-blue">
+                20%
+              </span>
+              <span className="block text-dark text-sm sm:text-custom-1 sm:leading-[24px]">
+                Flash
+                <br />
+                Sale!
+              </span>
+            </div>
+
+            <h1 className="font-semibold text-dark text-xl sm:text-3xl mb-3">
+              <a href="#">Smartwatches: Your Health & Style Companion</a>
+            </h1>
+
+            <p>
+              Track your fitness, receive notifications, and stay connected with our range of stylish smartwatches.
+            </p>
+
+            <a
+              href="#"
+              className="inline-flex font-medium text-white text-custom-sm rounded-md bg-dark py-3 px-9 ease-out duration-200 hover:bg-blue mt-10"
+            >
+              Explore Now
+            </a>
+          </div>
+
+          <div>
+            <Image
+              src="/images/hero/hero-01.png"
+              alt="smartwatch"
+              width={351}
+              height={358}
+            />
+          </div>
+        </div>
+      </SwiperSlide>
+
+      {/* Slide 3: Headphones */}
+      <SwiperSlide>
+        <div className="flex items-center pt-6 sm:pt-0 flex-col-reverse sm:flex-row">
+          <div className="max-w-[394px] py-10 sm:py-15 lg:py-24.5 pl-4 sm:pl-7.5 lg:pl-12.5">
+            <div className="flex items-center gap-4 mb-7.5 sm:mb-10">
+              <span className="block font-semibold text-heading-3 sm:text-heading-1 text-blue">
+                30%
+              </span>
+              <span className="block text-dark text-sm sm:text-custom-1 sm:leading-[24px]">
+                Big
+                <br />
+                Savings
+              </span>
+            </div>
+
+            <h1 className="font-semibold text-dark text-xl sm:text-3xl mb-3">
+              <a href="#">Immersive Audio: Noise Cancelling Headphones</a>
+            </h1>
+
+            <p>
+              Experience crystal-clear sound and deep bass with TechNova&#39;s selection of premium headphones.
+            </p>
+
+            <a
+              href="#"
+              className="inline-flex font-medium text-white text-custom-sm rounded-md bg-dark py-3 px-9 ease-out duration-200 hover:bg-blue mt-10"
+            >
+              Shop Headphones
+            </a>
+          </div>
+
+          <div>
+            <Image
+              src="/images/hero/hero-01.png"
+              alt="headphone"
+              width={351}
+              height={358}
+            />
+          </div>
+        </div>
+      </SwiperSlide>
+    </Swiper>
+  );
+};
+
+export default HeroCarousal;
