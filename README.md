@@ -1,25 +1,71 @@
-# Free eCommerce Template for Next.js - NextMerce
+# EvoCart – E-Commerce Web Application
 
-The free Next.js eCommerce template is a lite version of the NextMerce Next.js eCommerce boilerplate, designed to streamline the launch and management of your online store.
+A complete e-commerce web application built with Next.js, TypeScript and Redux Toolkit, focused on delivering a modern shopping experience for electronic products.
 
-![NextMerce](https://github.com/user-attachments/assets/57155689-a756-4222-8af7-134e556acae2)
+---
 
+## Overview
 
-While NextMerce Pro features advanced functionalities, seamless integration, and customizable options, providing all the essential tools needed to build and expand your business, the lite version offers a basic Next.js template specifically crafted for eCommerce websites. Both versions ensure superior performance and flexibility, all powered by Next.js.
+EvoCart is a full-featured e-commerce interface designed to simulate a real-world online store.
 
-### NextMerce Free VS NextMerce Pro
+The project covers the entire user journey — from browsing products to managing accounts and completing checkout — with a strong focus on UI structure, state management and user experience.
 
-| ✨ Features                         | 🎁 NextMerce Free                 | 🔥 NextMerce Pro                        |
-|----------------------------------|--------------------------------|--------------------------------------|
-| Next.js Pages                    | Static                         | Dynamic Boilerplate Template         |
-| Components                       | Limited                        | All According to Demo                |
-| eCommerce Functionality          | Included                       | Included                             |
-| Integrations (DB, Auth, etc.)    | Not Included                   | Included                             |
-| Community Support                | Included                       | Included                             |
-| Premium Email Support            | Not Included                   | Included                             |
-| Lifetime Free Updates            | Included                       | Included                             |
+It was developed to explore scalable frontend architecture and advanced state handling using Redux Toolkit.
 
+---
 
-#### [🚀 Live Demo](https://demo.nextmerce.com/)
+## Core Features
 
-#### [🌐 Visit Website](https://nextmerce.com/)
+### 🛍️ Shopping Experience
+- Product listing with filtering system
+- Product details page
+- Add to cart / remove from cart
+- Wishlist functionality
+
+### 🧾 Checkout Flow
+- Cart management
+- Checkout page
+- Order summary UI
+
+### 👤 User Account
+- Sign in / Sign up pages
+- Account dashboard
+- Orders history
+- Address management (shipping & billing)
+- Account details & password update
+- Logout functionality
+
+### 📰 Content
+- Blog section
+
+---
+
+## UI Structure
+
+- Home page (multi-section landing)
+- Shop page
+- Product details page
+- Cart & Checkout
+- Wishlist
+- Account dashboard (user side)
+- Blog
+- Contact page
+
+---
+
+## Features & Highlights
+
+- Scalable state management using Redux Toolkit
+- Modular component-based architecture
+- Clean and structured UI system
+- Responsive design across devices
+- Realistic e-commerce workflow simulation
+
+---
+
+## Tech Stack
+
+- Next.js  
+- TypeScript  
+- Redux Toolkit  
+- Tailwind CSS  
