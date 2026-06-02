@@ -2,7 +2,6 @@
 
 A complete e-commerce web application built with Next.js, TypeScript and Redux Toolkit, focused on delivering a modern shopping experience for electronic products.
 
----
 
 ## Overview
 
@@ -12,7 +11,6 @@ The project covers the entire user journey — from browsing products to managin
 
 It was developed to explore scalable frontend architecture and advanced state handling using Redux Toolkit.
 
----
 
 ## Core Features
 
@@ -38,7 +36,6 @@ It was developed to explore scalable frontend architecture and advanced state ha
 ### 📰 Content
 - Blog section
 
----
 
 ## UI Structure
 
@@ -51,17 +48,6 @@ It was developed to explore scalable frontend architecture and advanced state ha
 - Blog
 - Contact page
 
----
-
-## Features & Highlights
-
-- Scalable state management using Redux Toolkit
-- Modular component-based architecture
-- Clean and structured UI system
-- Responsive design across devices
-- Realistic e-commerce workflow simulation
-
----
 
 ## Tech Stack
 
